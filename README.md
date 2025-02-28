@@ -128,13 +128,6 @@ Run the tests using:
 python -m unittest tests.test_edmonds_karp
 ```
 
-## Input Format
-
-The algorithm expects the graph to be represented as an adjacency matrix where:
-- `capacity[i][j]` represents the capacity of the edge from vertex `i` to vertex `j`
-- `0` indicates no direct connection between vertices
-- All capacities must be non-negative (the algorithm raises a ValueError for negative capacities)
-
 ## Limitations
 
 1. This implementation uses an adjacency matrix, which is efficient for dense graphs but uses O(V²) space even for sparse graphs.
